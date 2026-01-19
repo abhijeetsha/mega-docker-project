@@ -17,15 +17,15 @@
 | Container Orchestration | Docker Compose    |
 
 ## 🏗️ Architecture
-Client
-  |
-  v
-Nginx (Reverse Proxy)
-  |
-------------------------------------------------
-|        |             |              |
-User API | Product API | Order API | Redis
-   |           |             |
-   -----------------------------
-              |
-            MySQL
+* Client
+*   |
+*   v
+* Nginx (Reverse Proxy)
+*   |
+* ------------------------------------------------
+* |        |             |              |
+* User API | Product API | Order API | Redis
+*    |           |             |
+*    -----------------------------
+*               |
+*             MySQL
