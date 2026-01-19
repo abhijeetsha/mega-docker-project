@@ -29,3 +29,26 @@
 *    -----------------------------
 *               |
 *             MySQL
+
+## Project Structure
+* mega-docker-project/
+* │
+* ├── frontend/
+* │   ├── Dockerfile
+* │   └── build/
+* │
+* ├── services/
+* │   ├── user-service/
+* │   ├── product-service/
+* │   └── order-service/
+* │
+* ├── nginx/
+* │   └── nginx.conf
+* │
+* ├── mysql/
+* │   └── init.sql
+* │
+* ├── redis/
+* │
+* ├── docker-compose.yml
+* └── Jenkinsfile
